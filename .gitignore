@@ -1,0 +1,54 @@
+# Environment variables - NEVER commit real settings
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs
+output/
+downloads/
+*.mp4
+*.mp3
+*.wav
+*.ass
+*.srt
+*.vtt
+*.webm
+*.mkv
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Thumbnails
+thumbnails/

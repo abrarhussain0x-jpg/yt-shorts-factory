@@ -1,0 +1,99 @@
+{
+  "name": "my_channel",
+  "display_name": "My Channel",
+  "description": "Your custom channel branding — logo top-right, bold hooks, subscribe CTA, professional style",
+  "category": "general",
+  "colors": {
+    "primary": "#FFFFFF",
+    "secondary": "#00FFFF",
+    "accent": "#FF0066",
+    "background": "#000000",
+    "outline": "#000000",
+    "shadow": "#80000000"
+  },
+  "intro": {
+    "enabled": true,
+    "duration": 2.0,
+    "animation": "fade",
+    "show_channel_name": true,
+    "channel_name_size": 38,
+    "show_logo": true,
+    "logo_scale": 0.18,
+    "sound_effect": "",
+    "background_color": "#000000",
+    "crossfade_duration": 0.5
+  },
+  "outro": {
+    "enabled": true,
+    "duration": 4.0,
+    "subscribe_text": "SUBSCRIBE",
+    "subscribe_color": "#FF0000",
+    "next_video_text": "Watch Next",
+    "show_social": false,
+    "social_handles": {},
+    "show_logo": true,
+    "background_opacity": 0.75,
+    "animation": "fade"
+  },
+  "lower_third": {
+    "enabled": true,
+    "duration": 5.0,
+    "position": "bottom",
+    "channel_name": "",
+    "subtitle_text": "",
+    "bg_opacity": 0.75,
+    "font_size": 26,
+    "show_at_start": true,
+    "animation": "slide_right"
+  },
+  "hook": {
+    "enabled": true,
+    "duration": 3.0,
+    "style": "bold_statement",
+    "text_template": "",
+    "font_size": 44,
+    "position": "center",
+    "flash_rate": 0.5,
+    "zoom_amount": 1.12,
+    "color_flash": "#FF0066"
+  },
+  "cta": {
+    "enabled": true,
+    "timing": "optimal",
+    "style": "subscribe_popup",
+    "duration": 3.0,
+    "subscribe_text": "SUBSCRIBE",
+    "like_text": "Like this video!",
+    "bell_text": "Ring the bell!",
+    "show_count": 1,
+    "opacity": 0.9,
+    "animation": "pop"
+  },
+  "watermark": {
+    "enabled": true,
+    "style": "corner",
+    "opacity": 0.85,
+    "position": "top-right",
+    "pulse_rate": 0.0,
+    "tile_spacing": 300
+  },
+  "subtitle_style": {
+    "font": "Arial Black",
+    "font_size": 22,
+    "color": "&H00FFFFFF",
+    "highlight_color": "&H0000FFFF",
+    "outline_color": "&H00000000",
+    "outline_width": 3,
+    "shadow_depth": 2,
+    "animation": "karaoke",
+    "position": "bottom",
+    "max_words": 4,
+    "bold": true,
+    "outline_mode": "shadow"
+  },
+  "transition": {
+    "style": "fade",
+    "duration": 0.5,
+    "easing": "ease_in_out"
+  }
+}
